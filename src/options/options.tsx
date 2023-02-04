@@ -13,7 +13,7 @@ const Footer = (props: { language: string; }) => (
             {getTranslation(localizationKeys.UI.supportMe)}
         </p>
         <a className="wcg-p-4" href="https://www.buymeacoffee.com/anzorq?utm_source=webchatgpt&utm_medium=options_page" target="_blank" rel="noopener noreferrer">
-            <img src="https://img.buymeacoffee.com/button-api/?text=Support this project&emoji=&slug=anzorq&button_colour=FFDD00&font_colour=000000&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff" />
+           
         </a>
     </div>
 )
@@ -63,9 +63,7 @@ export default function OptionsPage() {
 
             <div className="wcg-mt-28 wcg-self-center wcg-items-center wcg-flex wcg-flex-col">
                 {/* <div className="wcg-flex wcg-flex-row wcg-gap-4">
-                    <SocialCard icon={icons.twitter} text={getTranslation(localizationKeys.socialButtonTips.twitter)} />
-                    <SocialCard icon={icons.discord} text={getTranslation(localizationKeys.socialButtonTips.discord)} />
-                    <SocialCard icon={icons.github} text={getTranslation(localizationKeys.socialButtonTips.github)} />
+                  
                 </div> */}
                 <Footer
                     language={language}
