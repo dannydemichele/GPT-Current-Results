@@ -12,9 +12,7 @@ const Footer = (props: { language: string; }) => (
         <p style={{ whiteSpace: "pre-line" }} className="wcg-text-sm wcg-m-0 wcg-p-1 wcg-text-center">
             {getTranslation(localizationKeys.UI.supportMe)}
         </p>
-        <a className="wcg-p-4" href="https://www.buymeacoffee.com/anzorq?utm_source=webchatgpt&utm_medium=options_page" target="_blank" rel="noopener noreferrer">
-           
-        </a>
+       
     </div>
 )
 
